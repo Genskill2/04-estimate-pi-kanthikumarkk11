@@ -49,8 +49,6 @@ float mc_pi(int n ){
 
   }
 
-
-
 float frandom() {
   long int q = random();
   float ret = (float)q/(float)RAND_MAX;
