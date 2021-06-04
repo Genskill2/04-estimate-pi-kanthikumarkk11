@@ -11,7 +11,6 @@ float wallis_pi(int count){
     return pi * 2;
 }
 
-
 int main(void) {
   float pi;
   for (int i=0; i<5; i++) {
