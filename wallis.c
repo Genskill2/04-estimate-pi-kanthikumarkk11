@@ -1,16 +1,15 @@
-#include <assert.h>
+##include <assert.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
- float pi = 1.0;
+float wallis_pi(int count){
+    float pi = 1.0;
     for (int i = 1; i < count; i++){
         float num = 4.0 * i * i;
         pi *= num / (num - 1);
     }
     return pi * 2;
 }
-float wallis_pi(int count){
-   
 
 int main(void) {
   float pi;
@@ -30,4 +29,3 @@ int main(void) {
     }
   }
 }
-
