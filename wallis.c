@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-
 float wallis_pi(int count){
     float pi = 1.0;
     for (int i = 1; i < count; i++){
@@ -12,7 +11,7 @@ float wallis_pi(int count){
     return pi * 2;
 }
 
-float wallis_pi(int);
+
 int main(void) {
   float pi;
   for (int i=0; i<5; i++) {
