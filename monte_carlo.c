@@ -69,6 +69,7 @@ float mc_pi(int n ){
    return pi;   
   
   }
+
 int main(void) {
   float pi0;
   float pi1;
